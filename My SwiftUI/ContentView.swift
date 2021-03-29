@@ -9,17 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "swift")
-                .resizable()
-                .frame(width: 100, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: .center)
-                .background(Color.orange)
-                .padding([.leading, .bottom, .trailing])
-            Text("Hello, world!")
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                .kerning(5.0)
-                .padding()
-        }
+        Image("monster")
+            .resizable()
+            .scaledToFit()
+            .border(Color.green, width: 5)
+            .shadow(radius: 15)
+            .padding()
     }
 }
 
