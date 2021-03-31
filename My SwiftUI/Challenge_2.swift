@@ -30,7 +30,6 @@ struct Challenge_2: View {
                            endPoint: .bottomTrailing)
         )
         .cornerRadius(12)
-        
     }
 }
 
