@@ -13,7 +13,6 @@ struct StateAndBinding: View {
     }
 }
 
-
 struct StateAndBinding_Previews: PreviewProvider {
     static var previews: some View {
         StateAndBinding()
