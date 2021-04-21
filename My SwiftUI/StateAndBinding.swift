@@ -26,6 +26,7 @@ struct StateAndBinding: View {
                 .cornerRadius(50)
         }
         .padding()
+        
     }
 }
 
