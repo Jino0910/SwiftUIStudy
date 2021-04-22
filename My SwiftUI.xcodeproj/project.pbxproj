@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6156C83326310ED80079925B /* Challenge_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6156C83226310ED80079925B /* Challenge_1.swift */; };
 		6181D8F9261D75E8003D5327 /* StateAndBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6181D8F8261D75E8003D5327 /* StateAndBinding.swift */; };
 		61B5C68B2611AA0B006465D0 /* My_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5C68A2611AA0B006465D0 /* My_SwiftUIApp.swift */; };
 		61B5C68D2611AA0B006465D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5C68C2611AA0B006465D0 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6156C83226310ED80079925B /* Challenge_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_1.swift; sourceTree = "<group>"; };
 		6181D8F8261D75E8003D5327 /* StateAndBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndBinding.swift; sourceTree = "<group>"; };
 		61B5C6872611AA0B006465D0 /* My SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B5C68A2611AA0B006465D0 /* My_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_SwiftUIApp.swift; sourceTree = "<group>"; };
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6156C83126310EB10079925B /* State And Binding */ = {
+			isa = PBXGroup;
+			children = (
+				6181D8F8261D75E8003D5327 /* StateAndBinding.swift */,
+				6156C83226310ED80079925B /* Challenge_1.swift */,
+			);
+			path = "State And Binding";
+			sourceTree = "<group>";
+		};
 		61B5C67E2611AA0B006465D0 = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +70,7 @@
 				61B5C68A2611AA0B006465D0 /* My_SwiftUIApp.swift */,
 				61B5C68C2611AA0B006465D0 /* ContentView.swift */,
 				61B5C69B2611CE30006465D0 /* Challenge_2.swift */,
-				6181D8F8261D75E8003D5327 /* StateAndBinding.swift */,
+				6156C83126310EB10079925B /* State And Binding */,
 				61B5C68E2611AA0E006465D0 /* Assets.xcassets */,
 				61B5C6932611AA0E006465D0 /* Info.plist */,
 				61B5C6902611AA0E006465D0 /* Preview Content */,
@@ -146,6 +157,7 @@
 			files = (
 				61B5C68D2611AA0B006465D0 /* ContentView.swift in Sources */,
 				61B5C68B2611AA0B006465D0 /* My_SwiftUIApp.swift in Sources */,
+				6156C83326310ED80079925B /* Challenge_1.swift in Sources */,
 				61B5C69C2611CE30006465D0 /* Challenge_2.swift in Sources */,
 				6181D8F9261D75E8003D5327 /* StateAndBinding.swift in Sources */,
 			);
