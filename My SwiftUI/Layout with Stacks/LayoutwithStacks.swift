@@ -17,6 +17,7 @@ struct LayoutwithStacks: View {
                 Buttons()
             }
         }
+        
 //        .padding()
 //        .frame(minHeight: 15/*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxHeight: 250)
     }
