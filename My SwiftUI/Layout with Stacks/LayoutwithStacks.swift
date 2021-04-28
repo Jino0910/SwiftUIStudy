@@ -18,7 +18,8 @@ struct LayoutwithStacks: View {
             }
         }
         
-//        .padding()
+        .padding()
+        .frame(minHeight: 150, maxHeight: 250)
 //        .frame(minHeight: 15/*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxHeight: 250)
     }
 }
@@ -30,7 +31,7 @@ struct LayoutwithStacks_Previews: PreviewProvider {
             .frame(maxHeight: 250)
             .previewLayout(.sizeThatFits)
 
-//        Thumbnail()
+        Thumbnail()
 //            .paddding()
 //            .previewLayout(.fixed(width: 250, height: 250))
 //
