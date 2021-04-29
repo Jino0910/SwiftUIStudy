@@ -31,7 +31,7 @@ struct LayoutwithStacks_Previews: PreviewProvider {
             .frame(maxHeight: 250)
             .previewLayout(.sizeThatFits)
 
-        Thumbnail()
+//        Thumbnail()
 //            .paddding()
 //            .previewLayout(.fixed(width: 250, height: 250))
 //
